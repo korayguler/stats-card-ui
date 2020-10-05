@@ -25,7 +25,6 @@ $ npm run build
 
 - parcel
 - sass
-- next
 
 ### Prerequisite
 
