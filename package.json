@@ -1,0 +1,18 @@
+{
+  "name": "stats-cards-ui-desing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html ",
+    "build": "parcel build   --no-minify --no-source-maps  ./src/index.html --no-content-hash",
+    "help": "parcel -h"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.11"
+  }
+}

@@ -1,0 +1,167 @@
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+body
+    background: #456392
+    font-family: 'Josefin Sans', sans-serif
+.area
+    display: flex
+    justify-content: center
+    width: 100%
+    height: 100vh
+    position: relative
+    .circle
+        background: #4D72A9
+        height: 80vh
+        width: 80vh
+        border-radius: 100%
+        position: absolute
+        z-index: -2
+
+.grid
+    display: grid
+    grid-template-columns: 1fr 
+    grid-template-rows: 1fr 1fr 1fr 
+
+    align-items: center
+    .card
+        margin:15px
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,.25)
+        max-width: 400px
+        background: #fff
+        border-radius: 20px
+        display: flex
+        flex-direction: columns
+            
+.card-1
+    padding: 45px
+    height: content-fit
+    position: relative
+    .content
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 100%
+        .start
+            display: flex
+            align-items: center
+            justify-content: center
+            font-size: 28px
+            color: #131E30
+            .img
+                margin-right: 10px
+                width: 50px
+                height: 50px
+                img
+                    width: 100%
+
+        .end
+            height: 60px
+            display: flex
+            align-items: center
+            justify-content: center
+            .img
+                height: 100%
+                border-radius:120px
+                border: 3px solid #fff
+                &:nth-child(2)
+                    width:40px
+                    z-index: 1
+                &:nth-child(1)
+                    width: 40px
+                    z-index: 2
+                img
+                    height: 100%
+                    overflow: hidden
+                    border-radius:120px
+                    border: 3px solid #fff
+                        
+.card-2
+    height: content-fit
+    position: relative
+    padding: 60px
+    .content
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        .img
+            width: 150px
+            position: relative
+            img
+                width: 100%
+            margin-bottom: 29px
+            &::after
+                content: 'PRO'
+                width: 50px
+                height: 32px
+                background: #294266
+                color:#fff
+                position: absolute
+                display: flex
+                align-items: center
+                justify-content: center
+                border-radius: 20px
+                left:50%
+                transform: translate(-50%,-50%)
+                bottom: -28px
+                font-size:18px
+                padding: 2px
+        .fullname
+            margin-bottom: 20px
+            font-weight: 600
+            font-size: 26px
+        .username
+            font-size: 20px
+            margin-bottom: 60px
+        .stats
+            font-size: 20px
+
+.card-3
+    padding: 30px
+    .content
+        .item
+            margin-bottom:40px
+            display: flex
+            flex-direction: columns
+            align-items: center
+            &+.item
+                margin-top: 40px
+            .icon
+                width: 96px
+                height: 96px
+                border: 10px solid #D8E6FA
+                border-radius: 100%
+                display: flex
+                align-items: center
+                justify-content: center
+                margin-right: 15px
+        .right-area
+            .text
+                font-size: 18px
+                font-weight: 400
+                line-height: 2
+
+            .count
+                font-weight: 700
+                font-size: 30px
+
+.btn
+    width: 100%
+    height: 61px
+    color: #fff
+    background: #294266
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 20px
+    outline: none
+    border: 0
+    border-radius: 10px
+    transition: 350ms all
+    &:hover
+        background: #4D72A9
