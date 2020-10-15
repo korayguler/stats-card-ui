@@ -24,7 +24,7 @@ body
 .grid
     display: grid
     grid-template-columns: 1fr 
-    grid-template-rows: 1fr 1fr 1fr 
+    grid-template-rows: 1fr 1fr
 
     align-items: center
     .card
@@ -163,5 +163,12 @@ body
     border: 0
     border-radius: 10px
     transition: 350ms all
+    cursor: pointer
     &:hover
         background: #4D72A9
+
+
+@media (min-width: 768px) 
+    .grid
+        grid-template-columns: 1fr 1fr
+        grid-template-rows: 1fr 

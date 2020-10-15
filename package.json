@@ -2,10 +2,9 @@
   "name": "stats-cards-ui-desing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html ",
-    "build": "parcel build   --no-minify --no-source-maps  ./src/index.html --no-content-hash",
+    "build": "parcel build  src/index.html --no-minify --no-source-maps  --no-content-hash",
     "help": "parcel -h"
   },
   "keywords": [],

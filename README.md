@@ -1,13 +1,13 @@
 ## stats-card-ui
 
-### How to run localside
+### How to run local
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/korayguler/stats-card-ui
 
 # Go into the repository
-$ cd pinterest-clone
+$ cd stats-card-ui
 
 
 # Install dependencies
@@ -30,6 +30,3 @@ $ npm run build
 
 - node
 - npm
-
-
-
